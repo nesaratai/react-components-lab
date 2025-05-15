@@ -1,7 +1,7 @@
 import './WeatherForecast.css';
 
-import WeatherIcon from './WeatherData';
-import WeatherData from './WeatherIcon';
+import WeatherIcon from '../WeatherData/WeatherData';
+import WeatherData from '../WeatherIcon/WeatherIcon';
 
 const WeatherForecast = ({ forecast }) => {
   return (
